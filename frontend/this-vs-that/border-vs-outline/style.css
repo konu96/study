@@ -1,0 +1,11 @@
+.outline {
+    outline: 0.25rem solid blue
+}
+
+.border {
+    border: medium solid blue;
+}
+
+.outline-none:focus {
+    outline: none;
+}

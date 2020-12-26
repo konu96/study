@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webappfront
+  labels:
+    run: webappfront
+spec:
+  selector:
+    run: webappfront
+  ports:
+    - name: http
+      port: 3000
+  type: NodePort
+
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: webappfront
+  labels:
+    run: webappfront
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        run: webappfront
+    spec:
+      containers:
+        - name: webappfront
+          image: gcr.io/docker-kubernetes-250116/go-nuxt_app-front:1.0.0
+          ports:
+            - containerPort: 3000

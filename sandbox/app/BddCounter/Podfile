@@ -1,0 +1,14 @@
+target 'BddCounter' do
+  use_frameworks!
+
+  target 'BddCounterTests' do
+    inherit! :search_paths
+
+    pod 'Quick'
+    pod 'Nimble'
+  end
+
+  target 'BddCounterUITests' do
+  end
+
+end
