@@ -1,0 +1,15 @@
+{
+  "name": "javascript-promise",
+  "version": "1.0.0",
+  "description": "https://azu.github.io/promises-book/ のメモ",
+  "main": "xhr-promise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
