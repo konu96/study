@@ -124,6 +124,8 @@ Android では、`BottomSheet` という。
 
 特にまとめる事はなし
 
+![](https://storage.googleapis.com/zenn-user-upload/dyndquazi4tph8ea0juxyclrhhx5)
+
 ### 入力・選択・切り替えのコンポーネント
 
 - テキストフィールド
@@ -176,8 +178,11 @@ Android では、`BottomSheet` という。
 行動シナリオ: 価値シナリオを元に、ペルソナがどのような行動をすると目的達成できるのかをストーリーとして書く
 操作シナリオ: アプリ上でどのような操作を行うのかを、優先度の高いタスクごとに書く
 
-![](https://storage.googleapis.com/zenn-user-upload/b9vagf4f4lppimnl0piyvfgayega)
+![](https://storage.googleapis.com/zenn-user-upload/8s56xo37iqe690pb7ja7iafusaj2)
+![](https://storage.googleapis.com/zenn-user-upload/12nrx79szvke1pdoyfiev4cg7uw3)
+![](https://storage.googleapis.com/zenn-user-upload/iebfg4y5f8pc26ruqc6bargk1ah5)
 
+![](https://storage.googleapis.com/zenn-user-upload/b9vagf4f4lppimnl0piyvfgayega)
 
 ここまでで、ペルソナが達成したい目的やその流れが明確になった。
 次は、どのようなコンテンツを表示するかを考える。
@@ -225,6 +230,8 @@ Android では、`BottomSheet` という。
 - 検索結果
     - 同じキーワードで選ばれている結果: 順位
     - 曲: 人気順
+    
+![](https://storage.googleapis.com/zenn-user-upload/9cd24vwqjcsl6fhb29o9uss3r9au)
 
 ### UI モデルの設計
 
@@ -238,12 +245,16 @@ Android では、`BottomSheet` という。
 オブジェクトとアクションを一塊として情報の流れを可視化したものを **フロー図** と呼ぶ。今回はその中でも **UI Flows** と呼ばれるやり方を使う。
 ビュー単位でユーザーが「見るもの」と「行うこと」に分解して、プロダクトの構造を抽象化して、全体を把握しやすくする。
 
+![](https://storage.googleapis.com/zenn-user-upload/uapa34qjxpft7erydkcc2h2jqmyo)
+
 ## 5. UI デザインを作ってみよう
 
 ### 現状の整理と目的の確認
 
 何が決まっていて・何が決まっていない、足りている情報・足りていない情報をもう一度整理をする。いきなり、UI を作っても技術的に実装が難しい可能性もある。
 また、UI を作る目的もここで改めて考える。ボタン一つをとっても、「何故その UI にしたのか」を答えられるように、サービスの目的レベルから考えると良い。
+
+![](https://storage.googleapis.com/zenn-user-upload/349616czu746529ut62ktycwuf32)
 
 ### 画面構成を考えながら具現化する
 
@@ -253,5 +264,38 @@ UI は、サービスコンセプトと情報設計を掛け合わせていく�
 1. メモ書き
 2. ペーパープロトタイプ
 2.ワイヤーフレーム
+
+![](https://storage.googleapis.com/zenn-user-upload/twjry1a0ndenpmgbtmbfunsfffcc)
+
+## 6. 体験をデザインする
+
+### 画面遷移をつける
+
+今までは、各ページごとの UI を考えていた。画面遷移をつける作業は「点と点をつなげて線を作る作業」である。線にした時に、体験設計が正しいかを判断する。
+また、画面遷移かトースト、ハーフモーダルにするかは、このフェーズで考える。
+
+### インタラクションを考える
+アプリの場合、Apple と Google から提供されている UI コンポーネントを使えばある程度のインタラクションはある。
+ただ、それだと他のアプリと差別化が難しいのでサービスのコアになる体験部分では独自のインタラクションをつけると楽しいものになる。
+
+### ユーザビリティを考慮する
+
+全世界の人を対象したサービス、20代の女性をメインターゲットにしたサービスでは求めるユーザビリティが異なって良い。
+また、サービスを使用する状況によっても異なる。
+
+できるため多くの人が利用可能であるようなデザイン　= ユニバーサルデザイン
+
+- 女性がターゲット
+    - 手が小さいので、できるだけ操作する範囲を画面のしたに寄せる
+- 若年層がターゲット
+    - 斜め読みする傾向があるので、ジャンプ率を意識してタイトルなどを拾い読みしやすくする
+    - 太文字にする
+- 電車に乗っている
+    - 地下やトンネルで使えないことがあるので、オフライン状態であることを UI 上でも伝える
+- 寝る前
+    - ナイトモード
+    
+
+    
 
 
