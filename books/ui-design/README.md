@@ -294,8 +294,38 @@ UI は、サービスコンセプトと情報設計を掛け合わせていく�
     - 地下やトンネルで使えないことがあるので、オフライン状態であることを UI 上でも伝える
 - 寝る前
     - ナイトモード
-    
 
-    
+## 本で紹介された記事
+
+- [LATCH 5つの情報整理方法](https://medium.com/@3inowayosuke/latch-5%E3%81%A4%E3%81%AE%E6%83%85%E5%A0%B1%E6%95%B4%E7%90%86%E6%96%B9%E6%B3%95-d66b769d2470)
+
+情報の整理方法として **Location/Alphabet/Time/Category/Hieralchy の5つある。**
+
+- Location: 地図、路線図など位置に倣った情報の並べ方
+- Alphabet: 名前順
+- Time: テレビ番組表、スケジュール表、時刻表などの時間の並べ方
+- Category: 種類ごとに分類
+- Hieralchy: 背の順、番号順などの並べ方
+    - 階層というより Order って感じ
+
+**情報の並べ方**
+
+居住地のアンケートの多くは、北から順番に並べられている。これは、`Location` に基づいて並べられている。
+
+![](https://storage.googleapis.com/zenn-user-upload/sob0zcaokppp4lb1ifg71ktq8ya1)
+
+次は、都内の住居選択だと多くの場合 `Category` の分類になっている事が多い。
+
+![](https://storage.googleapis.com/zenn-user-upload/v5qhic1i6gka7h5dn9cctaaxtxq9)
+
+`Location` と `Category` の二つは、経験が強く影響する分類方法である。例えば、上の例では北海道が北にあるという事を知っている前提である。
+
+`Alphabet`、`Time`、`Hieralchy` は経験が影響しにくいがその分情報を絞り込むのが難しい。そこで入れ子構造をとる事で絞り込みやすくする。
+
+![](https://storage.googleapis.com/zenn-user-upload/7qle1woiuhfbosxpe2ilr2fe9kp2)
 
 
+- [カードソーティング：より良い情報アーキテクチャのために、ユーザーのメンタルモデルを明らかにしよう](https://u-site.jp/alertbox/card-sorting-definition)
+
+
+- [カードソーティングゲームを再公開しました](https://kmhr.hatenablog.com/entry/2017/05/09/210420)
