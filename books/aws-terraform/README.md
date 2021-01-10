@@ -33,3 +33,17 @@ locals {
 `variable` を使っても変数を定義できるが、「スコープ」と「関数が宣言できない」点が異なる。
 
 細かいシンタックスについは、[ここ](https://y-ohgi.com/introduction-terraform/handson/syntax/#output) を参照する。
+
+## 2. サービス公開
+
+あとでまとめる
+
+## 3. デプロイフロー
+
+Kubernetes のデプロイフローは大きく二つに分けれる。
+
+1. コンテナイメージのビルド
+2. マニフェストを apply
+
+AWS では、`CodeBuild` がコンテナイメージのビルドができる。また、`Amazon Elastic Container Registry` を使ってイメージを配布する。
+もちろん、`CodeBuild` も terraform でリソースを作成できる。(`codebuild.tf` を参照)
