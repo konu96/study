@@ -11,10 +11,28 @@ module "eks" {
       desired_capacity = 2
       max_capacity = 2
       min_capacity = 2
-      instance_type = "t3.small"
+      launch_template_id = aws_launch_template.eks_example.id
+      launch_template_version = aws_launch_template.eks_example.latest_version
     }
   }
+
   write_kubeconfig = false
+}
+
+resource "aws_launch_template" "eks_example" {
+  instance_type = "t3.small"
+
+  network_interfaces {
+    security_groups = [
+      module.eks.cluster_primary_security_group_id,
+      aws_security_group.node_example.id
+    ]
+  }
+}
+
+resource "aws_autoscaling_attachment" "eks_example" {
+  autoscaling_group_name = module.eks.node_groups["ng-1"].resources[0].autoscaling_groups[0].name
+  alb_target_group_arn = aws_lb_target_group.example.arn
 }
 
 data "aws_eks_cluster" "cluster" {
