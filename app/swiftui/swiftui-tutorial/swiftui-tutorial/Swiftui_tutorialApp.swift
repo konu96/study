@@ -1,6 +1,6 @@
 //
-//  Creating_and_Combining_ViewsApp.swift
-//  Creating-and-Combining-Views
+//  Swiftui_tutorialApp.swift
+//  Swiftui_tutorialApp
 //
 //  Created by kohei-uno on 2021/01/14.
 //
@@ -9,7 +9,7 @@
 import SwiftUI
 
 @main
-struct Creating_and_Combining_ViewsApp: App {
+struct Swiftui_tutorialApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

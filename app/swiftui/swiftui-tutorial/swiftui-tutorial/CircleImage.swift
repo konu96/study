@@ -1,6 +1,6 @@
 //
 //  CircleImage.swift
-//  Creating-and-Combining-Views
+//  Swiftui_tutorialApp
 //
 //  Created by kohei-uno on 2021/01/14.
 //

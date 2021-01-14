@@ -8,9 +8,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65D0B141EEB7DC029BE3C7EF"
-               BuildableName = "Creating-and-Combining-Views.app"
-               BlueprintName = "Creating-and-Combining-Views"
-               ReferencedContainer = "container:Creating-and-Combining-Views.xcodeproj">
+               BuildableName = "swiftui-tutorial.app"
+               BlueprintName = "swiftui-tutorial"
+               ReferencedContainer = "container:swiftui-tutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -23,9 +23,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65D0B141EEB7DC029BE3C7EF"
-            BuildableName = "Creating-and-Combining-Views.app"
-            BlueprintName = "Creating-and-Combining-Views"
-            ReferencedContainer = "container:Creating-and-Combining-Views.xcodeproj">
+            BuildableName = "swiftui-tutorial.app"
+            BlueprintName = "swiftui-tutorial"
+            ReferencedContainer = "container:swiftui-tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>

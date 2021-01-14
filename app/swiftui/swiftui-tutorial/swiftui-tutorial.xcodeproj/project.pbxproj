@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		65D0B155881F62F8FE99C9F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D0B6C86CC9C2982DAAF952 /* Preview Assets.xcassets */; };
-		65D0B25C0C2E4ECD1B02D3BA /* Creating_and_Combining_ViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B84A62131C134ED28346 /* Creating_and_Combining_ViewsApp.swift */; };
+		65D0B25C0C2E4ECD1B02D3BA /* Swiftui_tutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B84A62131C134ED28346 /* Swiftui_tutorialApp.swift */; };
 		65D0B3F871D7EEE795784A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D0B58E56EC9431975611D3 /* Assets.xcassets */; };
 		65D0B829B84B25191BEDD91C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B6184A5181580C681D01 /* ContentView.swift */; };
-		65D0B864352A9DC918D5C5E5 /* Creating_and_Combining_ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B6B4234A22AB6ED9A107 /* Creating_and_Combining_ViewsUITests.swift */; };
-		65D0BFDFD47DBCB5E380551A /* Creating_and_Combining_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B7366159A5F443EBD750 /* Creating_and_Combining_ViewsTests.swift */; };
+		65D0B864352A9DC918D5C5E5 /* Swiftui_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B6B4234A22AB6ED9A107 /* Swiftui_tutorialUITests.swift */; };
+		65D0BFDFD47DBCB5E380551A /* Swiftui_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B7366159A5F443EBD750 /* Swiftui_tutorialTests.swift */; };
 		8D1A5E5925B0568D003140EA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A5E5825B0568D003140EA /* CircleImage.swift */; };
 		8D1A5E5E25B0633F003140EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A5E5D25B0633F003140EA /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -23,30 +23,30 @@
 			containerPortal = 65D0B040A4331E790C66F900 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 65D0B141EEB7DC029BE3C7EF;
-			remoteInfo = "Creating-and-Combining-Views";
+			remoteInfo = "swiftui-tutorial";
 		};
 		65D0BD1F89F34043302DEAE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 65D0B040A4331E790C66F900 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 65D0B141EEB7DC029BE3C7EF;
-			remoteInfo = "Creating-and-Combining-Views";
+			remoteInfo = "swiftui-tutorial";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		65D0B58E56EC9431975611D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D0B6184A5181580C681D01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		65D0B6B4234A22AB6ED9A107 /* Creating_and_Combining_ViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creating_and_Combining_ViewsUITests.swift; sourceTree = "<group>"; };
+		65D0B6B4234A22AB6ED9A107 /* Swiftui_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_tutorialUITests.swift; sourceTree = "<group>"; };
 		65D0B6C86CC9C2982DAAF952 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		65D0B7366159A5F443EBD750 /* Creating_and_Combining_ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creating_and_Combining_ViewsTests.swift; sourceTree = "<group>"; };
+		65D0B7366159A5F443EBD750 /* Swiftui_tutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_tutorialTests.swift; sourceTree = "<group>"; };
 		65D0B7E1369683FBAFF0606D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		65D0B81C0A2141A5AC2981C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		65D0B84A62131C134ED28346 /* Creating_and_Combining_ViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creating_and_Combining_ViewsApp.swift; sourceTree = "<group>"; };
-		65D0B8F3D7891556F8C97529 /* Creating-and-Combining-ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Creating-and-Combining-ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D0BADB7A4FA6A46E49F0A9 /* Creating-and-Combining-ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Creating-and-Combining-ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D0B84A62131C134ED28346 /* Swiftui_tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_tutorialApp.swift; sourceTree = "<group>"; };
+		65D0B8F3D7891556F8C97529 /* swiftui-tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-tutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D0BADB7A4FA6A46E49F0A9 /* swiftui-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D0BF10569E1EFE8839566A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		65D0BF59F4005138DDBFD91D /* Creating-and-Combining-Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating-and-Combining-Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D0BF59F4005138DDBFD91D /* swiftui-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1A5E5825B0568D003140EA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		8D1A5E5D25B0633F003140EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +79,9 @@
 		65D0B300D16CBB85C45306CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65D0BF59F4005138DDBFD91D /* Creating-and-Combining-Views.app */,
-				65D0B8F3D7891556F8C97529 /* Creating-and-Combining-ViewsTests.xctest */,
-				65D0BADB7A4FA6A46E49F0A9 /* Creating-and-Combining-ViewsUITests.xctest */,
+				65D0BF59F4005138DDBFD91D /* swiftui-tutorial.app */,
+				65D0B8F3D7891556F8C97529 /* swiftui-tutorialTests.xctest */,
+				65D0BADB7A4FA6A46E49F0A9 /* swiftui-tutorialUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,54 +94,54 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		65D0B4E4724EAD9E0F90D4FA /* Creating-and-Combining-ViewsUITests */ = {
+		65D0B4E4724EAD9E0F90D4FA /* swiftui-tutorialUITests */ = {
 			isa = PBXGroup;
 			children = (
 				65D0BF10569E1EFE8839566A /* Info.plist */,
-				65D0B6B4234A22AB6ED9A107 /* Creating_and_Combining_ViewsUITests.swift */,
+				65D0B6B4234A22AB6ED9A107 /* Swiftui_tutorialUITests.swift */,
 			);
-			path = "Creating-and-Combining-ViewsUITests";
+			path = "swiftui-tutorialUITests";
 			sourceTree = "<group>";
 		};
 		65D0BAABC0D2BF8CE2249A5E = {
 			isa = PBXGroup;
 			children = (
 				65D0B300D16CBB85C45306CF /* Products */,
-				65D0BE2BE6F4665A7C770A7A /* Creating-and-Combining-Views */,
-				65D0BF60BA28537D3BD3E1D9 /* Creating-and-Combining-ViewsTests */,
-				65D0B4E4724EAD9E0F90D4FA /* Creating-and-Combining-ViewsUITests */,
+				65D0BE2BE6F4665A7C770A7A /* swiftui-tutorial */,
+				65D0BF60BA28537D3BD3E1D9 /* swiftui-tutorialTests */,
+				65D0B4E4724EAD9E0F90D4FA /* swiftui-tutorialUITests */,
 			);
 			sourceTree = "<group>";
 		};
-		65D0BE2BE6F4665A7C770A7A /* Creating-and-Combining-Views */ = {
+		65D0BE2BE6F4665A7C770A7A /* swiftui-tutorial */ = {
 			isa = PBXGroup;
 			children = (
 				65D0B81C0A2141A5AC2981C6 /* Info.plist */,
 				65D0B58E56EC9431975611D3 /* Assets.xcassets */,
 				65D0B4D82CB011A98638AB46 /* Preview Content */,
-				65D0B84A62131C134ED28346 /* Creating_and_Combining_ViewsApp.swift */,
+				65D0B84A62131C134ED28346 /* Swiftui_tutorialApp.swift */,
 				65D0B6184A5181580C681D01 /* ContentView.swift */,
 				8D1A5E5825B0568D003140EA /* CircleImage.swift */,
 				8D1A5E5D25B0633F003140EA /* MapView.swift */,
 			);
-			path = "Creating-and-Combining-Views";
+			path = "swiftui-tutorial";
 			sourceTree = "<group>";
 		};
-		65D0BF60BA28537D3BD3E1D9 /* Creating-and-Combining-ViewsTests */ = {
+		65D0BF60BA28537D3BD3E1D9 /* swiftui-tutorialTests */ = {
 			isa = PBXGroup;
 			children = (
 				65D0B7E1369683FBAFF0606D /* Info.plist */,
-				65D0B7366159A5F443EBD750 /* Creating_and_Combining_ViewsTests.swift */,
+				65D0B7366159A5F443EBD750 /* Swiftui_tutorialTests.swift */,
 			);
-			path = "Creating-and-Combining-ViewsTests";
+			path = "swiftui-tutorialTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65D0B141EEB7DC029BE3C7EF /* Creating-and-Combining-Views */ = {
+		65D0B141EEB7DC029BE3C7EF /* swiftui-tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D0B561423AEF381C43BFD6 /* Build configuration list for PBXNativeTarget "Creating-and-Combining-Views" */;
+			buildConfigurationList = 65D0B561423AEF381C43BFD6 /* Build configuration list for PBXNativeTarget "swiftui-tutorial" */;
 			buildPhases = (
 				65D0B8E2AD3E3640ACAB935E /* Sources */,
 				65D0B06A63C0A927ED4784B6 /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = "Creating-and-Combining-Views";
-			productName = "Creating-and-Combining-Views";
-			productReference = 65D0BF59F4005138DDBFD91D /* Creating-and-Combining-Views.app */;
+			name = "swiftui-tutorial";
+			productName = "swiftui-tutorial";
+			productReference = 65D0BF59F4005138DDBFD91D /* swiftui-tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65D0B27DA2388378DAB39128 /* Creating-and-Combining-ViewsTests */ = {
+		65D0B27DA2388378DAB39128 /* swiftui-tutorialTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D0BEC1DE148E2EB0A49A80 /* Build configuration list for PBXNativeTarget "Creating-and-Combining-ViewsTests" */;
+			buildConfigurationList = 65D0BEC1DE148E2EB0A49A80 /* Build configuration list for PBXNativeTarget "swiftui-tutorialTests" */;
 			buildPhases = (
 				65D0B947E8E85EAB34E393C7 /* Sources */,
 				65D0B023D96BDF5F0E26AA3D /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				65D0B21222DB5198EFD1EAA7 /* PBXTargetDependency */,
 			);
-			name = "Creating-and-Combining-ViewsTests";
-			productName = "Creating-and-Combining-ViewsTests";
-			productReference = 65D0B8F3D7891556F8C97529 /* Creating-and-Combining-ViewsTests.xctest */;
+			name = "swiftui-tutorialTests";
+			productName = "swiftui-tutorialTests";
+			productReference = 65D0B8F3D7891556F8C97529 /* swiftui-tutorialTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65D0B3883E6907692D16F7F0 /* Creating-and-Combining-ViewsUITests */ = {
+		65D0B3883E6907692D16F7F0 /* swiftui-tutorialUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D0BFFD49D251009728F7F7 /* Build configuration list for PBXNativeTarget "Creating-and-Combining-ViewsUITests" */;
+			buildConfigurationList = 65D0BFFD49D251009728F7F7 /* Build configuration list for PBXNativeTarget "swiftui-tutorialUITests" */;
 			buildPhases = (
 				65D0BE1A648763A29E53DD34 /* Sources */,
 				65D0BF4C4A6B8D5EFDEEB352 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				65D0B31858751CDBA00ABD0F /* PBXTargetDependency */,
 			);
-			name = "Creating-and-Combining-ViewsUITests";
-			productName = "Creating-and-Combining-ViewsUITests";
-			productReference = 65D0BADB7A4FA6A46E49F0A9 /* Creating-and-Combining-ViewsUITests.xctest */;
+			name = "swiftui-tutorialUITests";
+			productName = "swiftui-tutorialUITests";
+			productReference = 65D0BADB7A4FA6A46E49F0A9 /* swiftui-tutorialUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 			isa = PBXProject;
 			attributes = {
 			};
-			buildConfigurationList = 65D0B3FCA3018CC54AB20303 /* Build configuration list for PBXProject "Creating-and-Combining-Views" */;
+			buildConfigurationList = 65D0B3FCA3018CC54AB20303 /* Build configuration list for PBXProject "swiftui-tutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,9 +212,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65D0B141EEB7DC029BE3C7EF /* Creating-and-Combining-Views */,
-				65D0B27DA2388378DAB39128 /* Creating-and-Combining-ViewsTests */,
-				65D0B3883E6907692D16F7F0 /* Creating-and-Combining-ViewsUITests */,
+				65D0B141EEB7DC029BE3C7EF /* swiftui-tutorial */,
+				65D0B27DA2388378DAB39128 /* swiftui-tutorialTests */,
+				65D0B3883E6907692D16F7F0 /* swiftui-tutorialUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D0B25C0C2E4ECD1B02D3BA /* Creating_and_Combining_ViewsApp.swift in Sources */,
+				65D0B25C0C2E4ECD1B02D3BA /* Swiftui_tutorialApp.swift in Sources */,
 				8D1A5E5E25B0633F003140EA /* MapView.swift in Sources */,
 				65D0B829B84B25191BEDD91C /* ContentView.swift in Sources */,
 				8D1A5E5925B0568D003140EA /* CircleImage.swift in Sources */,
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D0BFDFD47DBCB5E380551A /* Creating_and_Combining_ViewsTests.swift in Sources */,
+				65D0BFDFD47DBCB5E380551A /* Swiftui_tutorialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D0B864352A9DC918D5C5E5 /* Creating_and_Combining_ViewsUITests.swift in Sources */,
+				65D0B864352A9DC918D5C5E5 /* Swiftui_tutorialUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +278,12 @@
 /* Begin PBXTargetDependency section */
 		65D0B21222DB5198EFD1EAA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D0B141EEB7DC029BE3C7EF /* Creating-and-Combining-Views */;
+			target = 65D0B141EEB7DC029BE3C7EF /* swiftui-tutorial */;
 			targetProxy = 65D0BD1F89F34043302DEAE0 /* PBXContainerItemProxy */;
 		};
 		65D0B31858751CDBA00ABD0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D0B141EEB7DC029BE3C7EF /* Creating-and-Combining-Views */;
+			target = 65D0B141EEB7DC029BE3C7EF /* swiftui-tutorial */;
 			targetProxy = 65D0BC498E2DD93F9C9EF716 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,13 +353,13 @@
 		65D0B06B6FB9BEBDBB588D7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Creating-and-Combining-ViewsUITests/Info.plist";
+				INFOPLIST_FILE = "swiftui-tutorialUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.Creating-and-Combining-ViewsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.swiftui-tutorialUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Creating-and-Combining-Views";
+				TEST_TARGET_NAME = "swiftui-tutorial";
 			};
 			name = Release;
 		};
@@ -368,12 +368,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				DEVELOPMENT_ASSET_PATHS = "\"Creating-and-Combining-Views/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-tutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Creating-and-Combining-Views/Info.plist";
+				INFOPLIST_FILE = "swiftui-tutorial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.Creating-and-Combining-Views";
+				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.swiftui-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,10 +383,10 @@
 		65D0B6AA3B94AC7315E2A0BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Creating-and-Combining-Views.app/Creating-and-Combining-Views";
-				INFOPLIST_FILE = "Creating-and-Combining-ViewsTests/Info.plist";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swiftui-tutorial.app/swiftui-tutorial";
+				INFOPLIST_FILE = "swiftui-tutorialTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.Creating-and-Combining-ViewsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.swiftui-tutorialTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -397,13 +397,13 @@
 		65D0B7308B42607DB1E73E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Creating-and-Combining-ViewsUITests/Info.plist";
+				INFOPLIST_FILE = "swiftui-tutorialUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.Creating-and-Combining-ViewsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.swiftui-tutorialUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Creating-and-Combining-Views";
+				TEST_TARGET_NAME = "swiftui-tutorial";
 			};
 			name = Debug;
 		};
@@ -464,10 +464,10 @@
 		65D0BF933D002BAF13A06A49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Creating-and-Combining-Views.app/Creating-and-Combining-Views";
-				INFOPLIST_FILE = "Creating-and-Combining-ViewsTests/Info.plist";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swiftui-tutorial.app/swiftui-tutorial";
+				INFOPLIST_FILE = "swiftui-tutorialTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.Creating-and-Combining-ViewsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.swiftui-tutorialTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,12 +480,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				DEVELOPMENT_ASSET_PATHS = "\"Creating-and-Combining-Views/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-tutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Creating-and-Combining-Views/Info.plist";
+				INFOPLIST_FILE = "swiftui-tutorial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.Creating-and-Combining-Views";
+				PRODUCT_BUNDLE_IDENTIFIER = "woo-noo.swiftui-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65D0B3FCA3018CC54AB20303 /* Build configuration list for PBXProject "Creating-and-Combining-Views" */ = {
+		65D0B3FCA3018CC54AB20303 /* Build configuration list for PBXProject "swiftui-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D0B0109BFBDF2EC9664CC9 /* Debug */,
@@ -504,7 +504,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D0B561423AEF381C43BFD6 /* Build configuration list for PBXNativeTarget "Creating-and-Combining-Views" */ = {
+		65D0B561423AEF381C43BFD6 /* Build configuration list for PBXNativeTarget "swiftui-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D0B0E4C8B9F6EE35B1F886 /* Debug */,
@@ -513,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D0BEC1DE148E2EB0A49A80 /* Build configuration list for PBXNativeTarget "Creating-and-Combining-ViewsTests" */ = {
+		65D0BEC1DE148E2EB0A49A80 /* Build configuration list for PBXNativeTarget "swiftui-tutorialTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D0BF933D002BAF13A06A49 /* Debug */,
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D0BFFD49D251009728F7F7 /* Build configuration list for PBXNativeTarget "Creating-and-Combining-ViewsUITests" */ = {
+		65D0BFFD49D251009728F7F7 /* Build configuration list for PBXNativeTarget "swiftui-tutorialUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D0B7308B42607DB1E73E4E /* Debug */,

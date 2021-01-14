@@ -1,15 +1,15 @@
 //
-//  Creating_and_Combining_ViewsTests.swift
-//  Creating-and-Combining-ViewsTests
+//  Swiftui_tutorialTests.swift
+//  Swiftui_tutorialTests
 //
 //  Created by kohei-uno on 2021/01/14.
 //
 //
 
 import XCTest
-@testable import Creating_and_Combining_Views
+@testable import Swiftui_tutorial
 
-class Creating_and_Combining_ViewsTests: XCTestCase {
+class Swiftui_tutorialTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
