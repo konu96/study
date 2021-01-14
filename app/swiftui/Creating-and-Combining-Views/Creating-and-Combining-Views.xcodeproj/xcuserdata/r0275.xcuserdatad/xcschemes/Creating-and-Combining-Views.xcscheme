@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "65D0B141EEB7DC029BE3C7EF"
+               BuildableName = "Creating-and-Combining-Views.app"
+               BlueprintName = "Creating-and-Combining-Views"
+               ReferencedContainer = "container:Creating-and-Combining-Views.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "65D0B141EEB7DC029BE3C7EF"
+            BuildableName = "Creating-and-Combining-Views.app"
+            BlueprintName = "Creating-and-Combining-Views"
+            ReferencedContainer = "container:Creating-and-Combining-Views.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
