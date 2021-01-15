@@ -16,6 +16,7 @@
 		8DAD20F025B1CDDC009FDD3E /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD20EF25B1CDDC009FDD3E /* DailyScrum.swift */; };
 		8DAD20F925B1CEE5009FDD3E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD20F825B1CEE5009FDD3E /* CardView.swift */; };
 		8DAD210125B1E2E3009FDD3E /* ScrumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD210025B1E2E3009FDD3E /* ScrumListView.swift */; };
+		8DAD210925B1FD0D009FDD3E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD210825B1FD0D009FDD3E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8DAD20EF25B1CDDC009FDD3E /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		8DAD20F825B1CEE5009FDD3E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8DAD210025B1E2E3009FDD3E /* ScrumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumListView.swift; sourceTree = "<group>"; };
+		8DAD210825B1FD0D009FDD3E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				8DAD20BF25B1B9DA009FDD3E /* MeetingView.swift */,
 				8DAD20F825B1CEE5009FDD3E /* CardView.swift */,
 				8DAD210025B1E2E3009FDD3E /* ScrumListView.swift */,
+				8DAD210825B1FD0D009FDD3E /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DAD20C025B1B9DA009FDD3E /* MeetingView.swift in Sources */,
+				8DAD210925B1FD0D009FDD3E /* DetailView.swift in Sources */,
 				8DAD20F025B1CDDC009FDD3E /* DailyScrum.swift in Sources */,
 				8DAD20F925B1CEE5009FDD3E /* CardView.swift in Sources */,
 				8DAD210125B1E2E3009FDD3E /* ScrumListView.swift in Sources */,
