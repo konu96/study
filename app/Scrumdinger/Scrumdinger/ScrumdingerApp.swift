@@ -9,10 +9,11 @@ import SwiftUI
 
 @main
 struct ScrumdingerApp: App {
+    @State private var scrums = DailyScrum.data
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ScrumListView(scrums: DailyScrum.data)
+                ScrumListView(scrums: $scrums)
             }
         }
     }
