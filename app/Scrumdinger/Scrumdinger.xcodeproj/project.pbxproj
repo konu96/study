@@ -25,6 +25,7 @@
 		8DB195F225B403D700CDCDE4 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB195F125B403D700CDCDE4 /* MeetingFooterView.swift */; };
 		8DB195F725B40D3E00CDCDE4 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB195F625B40D3E00CDCDE4 /* AVPlayer+Ding.swift */; };
 		8DB195FD25B41DF000CDCDE4 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB195FC25B41DF000CDCDE4 /* History.swift */; };
+		8DB1960225B4209B00CDCDE4 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1960125B4209B00CDCDE4 /* ScrumData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		8DB195F125B403D700CDCDE4 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		8DB195F625B40D3E00CDCDE4 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		8DB195FC25B41DF000CDCDE4 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		8DB1960125B4209B00CDCDE4 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		8D160CA025B2873600EFB5F6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8DB195F625B40D3E00CDCDE4 /* AVPlayer+Ding.swift */,
 				8D160CA125B2874500EFB5F6 /* Color.swift */,
 			);
 			path = Extensions;
@@ -168,10 +171,10 @@
 		8DAD20EE25B1CDCA009FDD3E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8DB195F625B40D3E00CDCDE4 /* AVPlayer+Ding.swift */,
 				8DB195E725B4021700CDCDE4 /* ScrumTimer.swift */,
 				8DAD20EF25B1CDDC009FDD3E /* DailyScrum.swift */,
 				8DB195FC25B41DF000CDCDE4 /* History.swift */,
+				8DB1960125B4209B00CDCDE4 /* ScrumData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				8DB195FD25B41DF000CDCDE4 /* History.swift in Sources */,
 				8D160CAA25B287CF00EFB5F6 /* EditView.swift in Sources */,
 				8DB195F725B40D3E00CDCDE4 /* AVPlayer+Ding.swift in Sources */,
+				8DB1960225B4209B00CDCDE4 /* ScrumData.swift in Sources */,
 				8DB195DE25B3FA4400CDCDE4 /* MeetingHeaderView.swift in Sources */,
 				8DB195E825B4021700CDCDE4 /* ScrumTimer.swift in Sources */,
 				8DB195F225B403D700CDCDE4 /* MeetingFooterView.swift in Sources */,

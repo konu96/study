@@ -11,6 +11,8 @@ struct ScrumListView: View {
     @Binding var scrums: [DailyScrum]
     @State private var isPresented = false
     @State private var newScrumData = DailyScrum.Data()
+    @Environment(\.scenePhase) private var scenePhase
+    let saveAction: () -> Void
 
     var body: some View {
         // List と ForEach の違い https://qiita.com/tsuzuki817/items/03989e1824916864d32b
@@ -47,6 +49,11 @@ struct ScrumListView: View {
                     )
             }
         }
+        .onChange(of: scenePhase) {
+            if $0 == .inactive {
+                saveAction()
+            }
+        }
     }
     
     private func biding(for scrum: DailyScrum) -> Binding<DailyScrum> {
@@ -61,7 +68,9 @@ struct ScrumListView: View {
 struct ScrumsView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ScrumListView(scrums: .constant(DailyScrum.data))
+            ScrumListView(scrums: .constant(DailyScrum.data)) {
+                
+            }
         }
     }
 }
