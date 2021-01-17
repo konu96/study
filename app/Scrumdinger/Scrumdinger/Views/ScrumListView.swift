@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ScrumListView: View {
     @Binding var scrums: [DailyScrum]
+    @State private var isPresented = false
+    @State private var newScrumData = DailyScrum.Data()
 
     var body: some View {
         // List と ForEach の違い https://qiita.com/tsuzuki817/items/03989e1824916864d32b
@@ -21,9 +23,30 @@ struct ScrumListView: View {
             }
         }
         .navigationTitle("Daily Scrum")
-        .navigationBarItems(trailing: Button(action: {}) {
+        .navigationBarItems(trailing: Button(action: {
+             isPresented = true
+         }) {
             Image(systemName: "plus")
         })
+        .sheet(isPresented: $isPresented) {
+            NavigationView {
+                EditView(scrumData: $newScrumData)
+                    .navigationBarItems(
+                        leading: Button("Dismiss") { isPresented = false },
+                        trailing: Button("Add") {
+                            isPresented = false
+                            
+                            scrums.append(DailyScrum(
+                                title: newScrumData.title,
+                                attendees: newScrumData.attendees,
+                                lengthInMinutes: Int(newScrumData.lengthInMinutes),
+                                color: newScrumData.color
+                            ))
+                            
+                        }
+                    )
+            }
+        }
     }
     
     private func biding(for scrum: DailyScrum) -> Binding<DailyScrum> {
