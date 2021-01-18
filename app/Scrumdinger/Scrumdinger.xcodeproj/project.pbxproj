@@ -26,6 +26,7 @@
 		8DB195F725B40D3E00CDCDE4 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB195F625B40D3E00CDCDE4 /* AVPlayer+Ding.swift */; };
 		8DB195FD25B41DF000CDCDE4 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB195FC25B41DF000CDCDE4 /* History.swift */; };
 		8DB1960225B4209B00CDCDE4 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1960125B4209B00CDCDE4 /* ScrumData.swift */; };
+		8DB1960725B4252100CDCDE4 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1960625B4252100CDCDE4 /* MeetingTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		8DB195F625B40D3E00CDCDE4 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		8DB195FC25B41DF000CDCDE4 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		8DB1960125B4209B00CDCDE4 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
+		8DB1960625B4252100CDCDE4 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		8DB195E225B3FC4B00CDCDE4 /* MeetingView */ = {
 			isa = PBXGroup;
 			children = (
+				8DB1960625B4252100CDCDE4 /* MeetingTimerView.swift */,
 				8DAD20BF25B1B9DA009FDD3E /* MeetingView.swift */,
 				8DB195DD25B3FA4400CDCDE4 /* MeetingHeaderView.swift */,
 				8DB195F125B403D700CDCDE4 /* MeetingFooterView.swift */,
@@ -336,6 +339,7 @@
 				8D160CAA25B287CF00EFB5F6 /* EditView.swift in Sources */,
 				8DB195F725B40D3E00CDCDE4 /* AVPlayer+Ding.swift in Sources */,
 				8DB1960225B4209B00CDCDE4 /* ScrumData.swift in Sources */,
+				8DB1960725B4252100CDCDE4 /* MeetingTimerView.swift in Sources */,
 				8DB195DE25B3FA4400CDCDE4 /* MeetingHeaderView.swift in Sources */,
 				8DB195E825B4021700CDCDE4 /* ScrumTimer.swift in Sources */,
 				8DB195F225B403D700CDCDE4 /* MeetingFooterView.swift in Sources */,
