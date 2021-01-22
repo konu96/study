@@ -49,3 +49,7 @@ OVER(PARTITION BY hogehoge) => hogehoge カラムでグループ化して集約�
 ### 3-4 複数のテーブルに対する操作
 
 `WITH` 句の事を、CTE(Common Table Expression) と呼ぶ。一時的なテーブルを作るために、使う。
+
+## 4. 売上を把握するためのデータ抽出
+
+`OVER` 句やウィンドウ関数を使うのが多かった。実行環境が MySQL 5.7 だったので、サンプルコードを実行できず SKIP
