@@ -26,3 +26,26 @@ SQL では、`NULL` と計算すると結果は `NULL` になる。それだと�
 `CAST` 関数を使うと良い。
 
 #### 日付の計算
+
+#### IP アドレスを扱う
+
+PostgreSQL は `inet` 型を使えば簡単に大小比較や範囲を扱うことができる。
+MySQL は、`inet_aton` を使うと大小比較ができる。`inet_aton` は文字列の IP アドレスを数値に変換して比較する。
+範囲を調べる場合は、`inet_aton('127.0.0.1') BETWEEN inet_aton('127.0.0.0') AND inet_aton('127.0.0.255')` みたいにする。
+
+### 3-3 1つのテーブルに対する操作
+
+集約関数をウィンドウ関数として使うには、後ろに　`OVER` 句を指定する。
+
+```
+OVER() => テーブル全体に集約関数を適用
+OVER(PARTITION BY hogehoge) => hogehoge カラムでグループ化して集約関数を適用
+```
+
+複数の行にまたがる値を繋げる時は、`GROUP_CONCAT(product_id SEPARATOR ',') AS product_ids,` のように `GROUP_CONCAT` を使う。
+
+縦持ちのデータを横持ちにするのは、比較的に簡単。横持ちのデータを縦持ちにするのは、面倒。
+
+### 3-4 複数のテーブルに対する操作
+
+`WITH` 句の事を、CTE(Common Table Expression) と呼ぶ。一時的なテーブルを作るために、使う。
