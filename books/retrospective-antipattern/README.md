@@ -93,8 +93,64 @@
 
 `ground rules` を決める。(ワーキングアラウンドと同じ意味だと思う)
 
+## Chapter 6 Unfruitful Democracy
 
 
+## Chapter 7 Nothing to Talk About
+
+
+## Chapter 8 Political Vote
+
+
+## Chapter 9 Team, Really?
+
+
+## Chapter 10 Do It Yourself
+
+
+## Chapter 11 Death by Postponement
+
+
+## Chapter 12 Get It Over With
+
+
+## Chapter 13 Disregard for Preparation
+
+
+## Chapter 14 Suffocating
+
+
+## Chapter 15 Curios Manager
+
+
+## Chapter 16 Peek-A-Boo
+
+
+## Chapter 17 Disillusioned Facilitator
+
+
+## Chapter 18 Loudmouth
+
+
+## Chapter 19 Silent One
+
+
+## Chapter 20 Negative One
+
+
+## Chapter 21 Nagative Team
+
+
+## Chapter 22 Lack of Trust
+
+
+## Chapter 23 Different Cultures
+
+
+## Chapter 24 Dead Silence
+
+
+## Chapter
 
 ## 補足
 
