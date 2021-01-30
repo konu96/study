@@ -140,56 +140,205 @@ https://uxdaystokyo.com/articles/glossary/six-thinking-hats/
 
 ## Chapter 8 Political Vote
 
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 ## Chapter 9 Team, Really?
+
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 
 ## Chapter 10 Do It Yourself
 
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
+
 
 ## Chapter 11 Death by Postponement
+
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 
 ## Chapter 12 Get It Over With
 
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
+
 
 ## Chapter 13 Disregard for Preparation
+
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 
 ## Chapter 14 Suffocating
 
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
+
 
 ## Chapter 15 Curios Manager
+
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 
 ## Chapter 16 Peek-A-Boo
 
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
+
 
 ## Chapter 17 Disillusioned Facilitator
+
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 
 ## Chapter 18 Loudmouth
 
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
+
 
 ## Chapter 19 Silent One
+
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 
 ## Chapter 20 Negative One
 
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
+
 
 ## Chapter 21 Nagative Team
+
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 
 ## Chapter 22 Lack of Trust
 
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
+
 
 ## Chapter 23 Different Cultures
+
+事例
+```
+
+```
+
+### 症状
+
+#### 解決方法
 
 
 ## Chapter 24 Dead Silence
 
+事例
+```
 
-## Chapter
+```
+
+### 症状
+
+#### 解決方法
 
 ## 補足
 
