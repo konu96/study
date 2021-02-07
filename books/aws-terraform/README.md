@@ -47,3 +47,22 @@ Kubernetes のデプロイフローは大きく二つに分けれる。
 
 AWS では、`CodeBuild` がコンテナイメージのビルドができる。また、`Amazon Elastic Container Registry` を使ってイメージを配布する。
 もちろん、`CodeBuild` も terraform でリソースを作成できる。(`codebuild.tf` を参照)
+
+Kubernetes のマニフェストファイルは、Git でバージョン管理して Kustomize で作るのが一般的である。
+
+```
+kustomize
+├── base
+│ ├── front-end.yaml
+│ └── kustomization.yaml 
+└── overlays
+  ├── production
+  │ ├── front-end.yaml
+  │ └── kustomization.yaml
+  └── staging
+  ├── front-end.yaml 
+  └── kustomization.yaml
+```
+
+`kustomize build overlays/production` でマニフェストが作成される。
+環境変数を使うには Kustomize の `Generator` を使う。ConfigMapGenerator 
