@@ -1,4 +1,4 @@
-import inconsistentRead from './inconsistentRead';
+import inconsistentRead from './inconsistentRead.mjs';
 
 export default fileName => {
     const listeners = [];

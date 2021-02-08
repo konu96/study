@@ -1,4 +1,4 @@
-import createFileReader from './createFileReader';
+import createFileReader from './createFileReader.mjs';
 
 const reader1 = createFileReader('data.txt');
 reader1.onDataReady(data => {
