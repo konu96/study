@@ -100,3 +100,130 @@ tasks:
     cmds:
       - echo {{.TEXT}}
 ```
+
+### Calling another task
+
+`deps` で依存関係を表現した場合、並列でタスクを進める。シリアルにしたい場合は、次のように書く。
+
+```
+version: '3'
+
+tasks:
+  main-task:
+    cmds:
+      - task: task-to-be-called
+      - task: another-task
+      - echo "Both done"
+
+  task-to-be-called:
+    cmds:
+      - echo "Task to be called"
+
+  another-task:
+    cmds:
+      - echo "Another task"
+```
+
+### Prevent unnecessary work
+インプットになるファイルに変更がない場合、一度コマンドを実行していたら２回目はスキップする。
+
+```
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - go build .
+    sources:
+      - ./*.go
+    generates:
+      - app{{exeExt}}
+    method: checksum
+```
+
+### Dynamic variables
+
+```
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - go build -ldflags="-X main.Version={{.GIT_COMMIT}}" main.go
+    vars:
+      GIT_COMMIT:
+        sh: git log -n 1 --format=%h
+```
+
+### Help
+
+それぞれのタスクに `desc` を追加すると、`task --list` を実行したときにヘルプが出せる。
+
+```
+version: '3'
+
+tasks:
+  build:
+    desc: Build the go binary.
+    cmds:
+      - go build -v -i main.go
+```
+
+同じ感じで `summary` を追加すると、`task --summary task-name` でタスクのサマリーが表示される。
+
+```
+version: '3'
+
+tasks:
+  release:
+    deps: [build]
+    summary: |
+      Release your project to github
+
+      It will build your project before starting the release.
+      Please make sure that you have set GITHUB_TOKEN before starting.
+    cmds:
+      - your-release-tool
+
+  build:
+    cmds:
+      - your-build-tool
+```
+
+### silent
+
+```
+version: '3'
+
+tasks:
+  echo:
+    cmds:
+      - cmd: echo "Print something"
+        silent: true
+```
+
+`task --silent` でも OK
+
+### Dry run mode
+
+`task --dry`
+
+
+### short task syntax
+
+```
+version: '3'
+
+tasks:
+  build: go build -v -o ./app{{exeExt}} .
+
+  run:
+    - task: build
+    - ./app{{exeExt}} -h localhost -p 8080
+```
+
+### Watch tasks
+
+`taks --watch`
+
+ファイルの変更があるか知る必要があるので、 `sources` が必要
