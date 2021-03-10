@@ -151,14 +151,30 @@ https://uxdaystokyo.com/articles/glossary/six-thinking-hats/
 
 ## Chapter 9 Team, Really?
 
-事例
+他のチームと掛け持ちしているメンバーがいる。
+コンテキストスイッチを減らすために、連続した日チームの仕事する。会議は参加したいのだけ、参加する。
+また、質問したいことがあっても他のチームなので質問できるのが一週間後とかになる。病気や有給を使っていたら、もっと遅くなってしまう。
 ```
 
-```
+> The picture that is drawn by gathering data from the whole team is invaluable in understanding, or in other words, inspecting, how the work is done in the team. 
+> The experiments that are decided on—the changes made to the way the team works together or with the technology—are also important outcomes of a retrospective because these experiments are the way the team adapts to the situation at hand. 
+> When a member of the team or someone who works closely with the team is absent from the retrospective, the actions decided on may not be acceptable for all. 
+> Perhaps the decisions even cause problems, such as with the architecture, the UI, or the tests, that the missing team member could have foreseen. 
+> This inspecting and adapting is the heart of agile development.
+
+> Last but not least, I have often heard people say that a retrospective feels like group therapy for the team and that it is where they start sharing and feeling like part of a team. 
+> People who do not attend the retrospectives consequently might feel less like part of the team. 
+
+良いことを言っている
 
 ### 症状
 
+朝会でストーリーを実装している人がいなかったり、意見を聞くべき人が欠席している
+
 #### 解決方法
+朝会はコアチームや問題を解決することができる人全員が参加するべき。では、この全員が誰なのかどのように知るのか?
+
+
 
 
 ## Chapter 10 Do It Yourself
