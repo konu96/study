@@ -26,7 +26,8 @@
     "types": [
       "@nuxt/types",
       "@types/node",
-      "@nuxtjs/dayjs"
+      "@types/jest",
+      "@nuxtjs/dayjs",
     ]
   },
   "exclude": [
