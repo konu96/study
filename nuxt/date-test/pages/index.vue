@@ -10,14 +10,10 @@
 <script lang="ts">
 import {defineComponent, useContext} from '@nuxtjs/composition-api';
 import { useDate } from '@/compositions/useDate';
-import utc from 'dayjs/plugin/utc';
-import timezone from 'dayjs/plugin/timezone';
 
 export default defineComponent({
   setup() {
     const { $dayjs } = useContext()
-    $dayjs.extend(utc);
-    $dayjs.extend(timezone);
     const { isToday } = useDate()
 
     const dayjsList = [
