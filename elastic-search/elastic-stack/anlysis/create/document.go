@@ -1,7 +1,7 @@
 package main
 
 import (
-  "../../types"
+	"../../types"
   "../../utility"
   "context"
   "fmt"

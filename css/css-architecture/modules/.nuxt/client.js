@@ -18,7 +18,7 @@ import {
 } from './utils.js'
 import { createApp, NuxtError } from './index.js'
 import fetchMixin from './mixins/fetch.client'
-import NuxtLink from './components/nuxt-link.client.js' // should be included after ./index.ts
+import NuxtLink from './components/nuxt-link.client.js' // should be included after ./index.js
 
 // Fetch mixin
 if (!Vue.__nuxt__fetch__mixin__) {

@@ -11,7 +11,7 @@ import {
 } from './utils.js'
 import fetchMixin from './mixins/fetch.server'
 import { createApp, NuxtError } from './index.js'
-import NuxtLink from './components/nuxt-link.server.js' // should be included after ./index.ts
+import NuxtLink from './components/nuxt-link.server.js' // should be included after ./index.js
 
 // Update serverPrefetch strategy
 Vue.config.optionMergeStrategies.serverPrefetch = Vue.config.optionMergeStrategies.created
