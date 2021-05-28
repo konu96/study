@@ -3,7 +3,6 @@
     <ul v-for="dayjs in dayjsList">
       <li> {{ isToday(dayjs) }}</li>
     </ul>
-    {{ $dayjs() }}
   </div>
 </template>
 
