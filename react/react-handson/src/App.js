@@ -3,9 +3,19 @@ import colorData from './color-data.json';
 import ColorList from './components/ColorList';
 
 function App() {
-  const [ colors ] = useState(colorData);
+  const [ colors, setColors ] = useState(colorData);
 
-  return <ColorList colors={colors} />
+  const onRemoveColor = id => {
+    setColors(colors.filter( color => color.id !== id))
+  }
+
+  const onRateColor = (id, rating) => {
+    setColors(colors.map(color => (
+      color.id === id ? { ...color, rating } : color
+    )))
+  }
+
+  return <ColorList colors={colors} onRemoveColor={onRemoveColor} onRateColor={onRateColor} />
 }
 
 export default App;
