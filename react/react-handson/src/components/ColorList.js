@@ -1,5 +1,7 @@
 import StarRating from "./StarRating";
 import { FaTrash } from "react-icons/fa";
+import { useContext } from "react";
+import { ColorContext } from "../index";
 
 const Color = ({ id, title, color, rating, onRemove = f => f, onRate = f => f }) => {
     return (
@@ -15,7 +17,8 @@ const Color = ({ id, title, color, rating, onRemove = f => f, onRate = f => f })
     )
 }
 
-const ColorList = ({ colors = [], onRemoveColor = f => f, onRateColor = f => f}) => {
+const ColorList = () => {
+    const { colors } = useContext(ColorContext)
     if (!colors.length) {
         return <div> No Colors Listed. </div>
     }
@@ -23,7 +26,7 @@ const ColorList = ({ colors = [], onRemoveColor = f => f, onRateColor = f => f})
     return (
         <div className="color-list">
             {
-                colors.map(color => <Color key={color.id} onRemove={onRemoveColor} onRate={onRateColor} {...color} />)
+                colors.map(color => <Color key={color.id} {...color} />)
             }
         </div>
     )
