@@ -1,13 +1,19 @@
 import ColorList from './components/ColorList';
 import AddColorForm from './components/AddColorForm';
 import CheckBox from './components/CheckBox';
+import Phrase from "./components/Phrase";
 
 function App() {
   return (
       <>
-        <AddColorForm />
-        <ColorList />
-        <CheckBox />
+          <AddColorForm />
+          <ColorList />
+          <div>
+              <CheckBox />
+          </div>
+          <div>
+              <Phrase />
+          </div>
       </>
   )
 }
