@@ -1,7 +1,7 @@
-import { useState,useEffect } from "react";
+import {useState, useEffect, useReducer} from "react";
 
 const CheckBox = () => {
-    const [checked, setChecked] = useState(false)
+    const [checked, toggle] = useReducer(checked => !checked, false)
 
     // 描画された後に実行したい処理を記述
     useEffect(() => {
@@ -13,7 +13,7 @@ const CheckBox = () => {
             <input
                 type="checkbox"
                 value={checked}
-                onChange={() => setChecked(checked => !checked)}
+                onChange={toggle}
             />
             { checked ? "checked" : "not checked" }
         </>

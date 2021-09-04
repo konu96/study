@@ -4,6 +4,7 @@ import CheckBox from './components/CheckBox';
 import Phrase from "./components/Phrase";
 import WordCount from "./components/WordCount";
 import CheckUseLayoutEffect from "./components/CheckUseLayoutEffect";
+import CheckUseReducer from "./components/CheckUseReducer";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </div>
           <div>
               <CheckUseLayoutEffect />
+          </div>
+          <div>
+              <CheckUseReducer />
           </div>
       </>
   )
