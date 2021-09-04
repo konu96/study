@@ -3,6 +3,7 @@ import AddColorForm from './components/AddColorForm';
 import CheckBox from './components/CheckBox';
 import Phrase from "./components/Phrase";
 import WordCount from "./components/WordCount";
+import CheckUseLayoutEffect from "./components/CheckUseLayoutEffect";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           </div>
           <div>
               <WordCount>You are not going to believe this but...</WordCount>
+          </div>
+          <div>
+              <CheckUseLayoutEffect />
           </div>
       </>
   )
