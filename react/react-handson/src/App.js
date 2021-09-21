@@ -5,6 +5,7 @@ import Phrase from "./components/Phrase";
 import WordCount from "./components/WordCount";
 import CheckUseLayoutEffect from "./components/CheckUseLayoutEffect";
 import CheckUseReducer from "./components/CheckUseReducer";
+import GithubUser from "./components/GithubUser";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </div>
           <div>
               <CheckUseReducer />
+          </div>
+          <div>
+              <GithubUser login="moonhighway" />
           </div>
       </>
   )
