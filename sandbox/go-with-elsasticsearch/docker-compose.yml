@@ -1,0 +1,65 @@
+version: '3.6'
+services:
+  elasticsearch:
+    build: ./elasticsearch
+    container_name: elasticsearch
+    environment:
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - node.name=es01
+      - cluster.name=go_elastic_starter_cluster
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./elasticsearch/config/log4j2.properties:/usr/share/elasticsearch/config/log4j2.properties
+
+  elasticsearch2:
+    build: ./elasticsearch
+    container_name: elasticsearch2
+    environment:
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - node.name=es02
+      - cluster.name=go_elastic_starter_cluster
+      - "discovery.zen.ping.unicast.hosts=elasticsearch"
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./elasticsearch/config/log4j2.properties:/usr/share/elasticsearch/config/log4j2.properties
+
+  elasticsearch3:
+    build: ./elasticsearch
+    container_name: elasticsearch3
+    environment:
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - node.name=es03
+      - cluster.name=go_elastic_starter_cluster
+      - "discovery.zen.ping.unicast.hosts=elasticsearch"
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./elasticsearch/config/log4j2.properties:/usr/share/elasticsearch/config/log4j2.properties
+  kibana:
+    build: ./kibana
+    links:
+      - elasticsearch
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+    ports:
+      - 5601:5601
+
+  logstash:
+    build: ./logstash
+    volumes:
+    - ./logstash:/logstash_dir
+    command: logstash -f /logstash_dir/logstash.conf
+    links:
+      - elasticsearch
+    ports:
+      - "5959:5959"
+      - "9600:9600"
+  go_elastic_search:
+    build: ./api
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./api:/go/src/go_elastic_search/api
+    command: bash wait-for-logstash.sh
