@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                               'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application',
+                               'data-turbolinks-track': 'reload' %>
+    <%= render 'layouts//partials/shim' %>
+    <%#= javascript_pack_tag 'hello_vue' %>
+    <%#= stylesheet_pack_tag 'hello_vue'  %>
+  </head>
+  <body>
+    <%= render 'layouts/partials/header' %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <%= render 'layouts/partials/footer' %>
+  </body>
+</html>
